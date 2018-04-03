@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<title>Close Box</title>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(function)(){
+$('#examplebox').close(function(){
+$(this).css("background-color, "green").text("Close me to turn the box green!");
+ function(){
+    $( this ).css("background-color", "#953674").text("Close me to turn the box green!")
+  }
+  );
+</script></head>
+
+
+<body>
+<div id="exampleBox">Close me to turn the box green!</div>
+
+<link rel ="stylesheet" type="text/css" href="sample.css">
+<style type="text/css>
+
+
+.div{width: 200px;
+height: 200px;
+background-color: green;
+font-size: 1.2em;
+font-family: georgia;
+}
+
+
+
+
+
+</body></html>
